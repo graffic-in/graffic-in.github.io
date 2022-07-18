@@ -1,0 +1,9 @@
+@import url("base.css");
+
+body{
+    background:var(--dark);
+}
+
+h1{
+    color: var(--light);
+}
