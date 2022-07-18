@@ -50,9 +50,9 @@ nav{
 .navbar .logo a{
   color: var(--light);
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
-  font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: 'Amatic SC', cursive;
 }
 .navbar .menu-list{
   display: inline-flex;
