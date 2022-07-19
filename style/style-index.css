@@ -1,7 +1,7 @@
 @import url("base.css");
 
 body{
-    background:linear-gradient(to right, rgb(12, 15, 19), rgb(7, 11, 19), rgb(0, 0, 0))
+    background:linear-gradient(to right, rgb(12, 15, 19), rgb(13, 20, 36), rgb(0, 0, 0))
 }
 
 .container {
@@ -272,3 +272,4 @@ body{
     transform: rotateX(0deg) skewX(0deg);
     }
 }
+
