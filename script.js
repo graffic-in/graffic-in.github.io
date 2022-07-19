@@ -15,3 +15,19 @@ const body = document.querySelector("body");
     window.onscroll = ()=>{
       this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
     }
+
+window.addEventListener('load', fadeOutEffect);
+
+function fadeOutEffect() {
+  var fadeTarget = document.getElementById("loader");
+  var fadeEffect = setInterval(function () {
+      if (!fadeTarget.style.opacity) {
+          fadeTarget.style.opacity = 1;
+      }
+      if (fadeTarget.style.opacity > 0) {
+          fadeTarget.style.opacity -= 0.1;
+      } else {
+          clearInterval(fadeEffect);
+      }
+  }, 200);
+}
